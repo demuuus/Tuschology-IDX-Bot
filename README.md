@@ -148,6 +148,45 @@ Bot will automatically send messages only to channels containing this marker.
 ```
 python3 main.py
 ```
+If successful:
+```
+✅ Tuschology is online
+```
 
 ## 🚀 Production Deployment**
-Use **systemd** on VPS:
+Use **systemd** on VPS.
+Create:
+```
+/etc/systemd/system/tuschology.service
+```
+Example:
+```
+[Unit]
+Description=Tuschology IDX Bot
+After=network.target
+
+[Service]
+User=ubuntu
+WorkingDirectory=/home/ubuntu/idx_bot
+ExecStart=/home/ubuntu/idx_bot/venv/bin/python main.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
+```
+Then:
+```
+sudo systemctl daemon-reload
+sudo systemctl enable tuschology
+sudo systemctl start tuschology
+```
+
+## 📊 Market Hours Logic
+Bot automatically detects:
+  - Weekends -> Market Closed
+  - 09:00 - 12:00 WIB -> Open
+  - 12:00 - 13:00 WIB -> Break
+  - 13:00 - 16:00 WIB -> Open
+  - After 16:00 -> Closed
+Presence updates accordingly
