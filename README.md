@@ -37,7 +37,7 @@ It delivers structured, real-time notifications with dynamic Discord Rich Presen
   - Multi-source aggregation
 
 ### **3. 💬 Discord Integration**
-- Topic-based routing (send only to channels with marker ```***TCHNEWS***```)
+- Topic-based routing (send only to channels with marker ***```TCHNEWS```***)
 - Multi-server compatible
 - Dynamic Rich Presence:
   - IDX Maintenance
@@ -48,7 +48,7 @@ It delivers structured, real-time notifications with dynamic Discord Rich Presen
 
 ### **4. 💬 Telegram Integration**
 - Broadcast alerts to Telegram channel/group
-- ```***/status***``` command via DM only
+- ***```/status```*** command via DM only
 - Real-time system status:
   - Feeds count
   - Last RSS check (seconds)
