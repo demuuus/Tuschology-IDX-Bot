@@ -7,8 +7,8 @@ It delivers structured, real-time notifications with dynamic Discord Rich Presen
 
 ## **✨ Features**
 ### **1. ⚠️ IDX Priority Monitoring (Level 2 Scraping)**
-  • Scrapes official IDX announcement page.
-  • Detects:
+* Scrapes official IDX announcement page.
+  * Detects:
     - Supension (Suspensi)
     - Unusual Market Activity (UMA)
     - Disclosure / Keterbukaan Informasi
