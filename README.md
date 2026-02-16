@@ -6,7 +6,7 @@ Tuschology IDX Bot is an automated Discord & Telegram Bot that monitors:
 It delivers structured, real-time notifications with dynamic Discord Rich Presence based on market conditions.
 
 ## **✨ Features**
-### **1. ⚠️ IDX Priority Monitoring (Level 2 Scraping)**
+### **⚠️ IDX Priority Monitoring (Level 2 Scraping)**
 - Scrapes official IDX announcement page.
 - Detects:
   - Supension (Suspensi)
@@ -21,7 +21,7 @@ It delivers structured, real-time notifications with dynamic Discord Rich Presen
 - Prevents duplicate alerts vie persistent hash tracking
 - Maintenance detection & auto status switching
 
-### **2. 📰 Financial Media RSS Monitoring**
+### **📰 Financial Media RSS Monitoring**
 - Monitors selected financial sources:
   - CNBC Indonesia
   - CNN Indonesia
@@ -36,7 +36,7 @@ It delivers structured, real-time notifications with dynamic Discord Rich Presen
   - Age filtering (max 3 days)
   - Multi-source aggregation
 
-### **3. 💬 Discord Integration**
+### **💬 Discord Integration**
 - Topic-based routing (send only to channels with marker ***```TCHNEWS```***)
 - Multi-server compatible
 - Dynamic Rich Presence:
@@ -46,7 +46,7 @@ It delivers structured, real-time notifications with dynamic Discord Rich Presen
   - IDX & Market News
 - Automatic presence switching based on market hours
 
-### **4. 💬 Telegram Integration**
+### **💬 Telegram Integration**
 - Broadcast alerts to Telegram channel/group
 - ***```/status```*** command via DM only
 - Real-time system status:
@@ -63,4 +63,33 @@ It delivers structured, real-time notifications with dynamic Discord Rich Presen
     📰 Last news: N/A lalu
     📊 IDX Status: ACTIVE
     ```
-    
+### **🔁 Stability & Reliability**
+- Persistent JSON state storage
+- Duplicate detection cache
+- Maintenance detection logic
+- Async pipelines
+- systemd-ready deployment
+
+## **📁 Project Structure**
+```
+idx_bot/
+│
+├── main.py
+├── config.py
+├── .env
+│
+├── core/
+│   ├── state.py
+│   ├── filters.py
+│   ├── market.py
+│   ├── utils.py
+│   └── fetchers.py
+│
+├── pipelines/
+│   ├── idx.py
+│   └── media.py
+│
+└── platforms/
+    ├── discord.py
+    └── telegram.py
+```
