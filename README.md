@@ -1,4 +1,4 @@
-**#Tuschology IDX Bot**
+#**Tuschology IDX Bot**
 
 Tuschology IDX Bot is an automated Discord & Telegram Bot that monitors:
 IDX (Indonesia Stock Exchange) official announcements
