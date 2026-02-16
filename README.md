@@ -22,38 +22,38 @@ It delivers structured, real-time notifications with dynamic Discord Rich Presen
 - Maintenance detection & auto status switching
 
 ### **2. 📰 Financial Media RSS Monitoring**
-   Monitors selected financial sources:
-     • CNBC Indonesia
-     • CNN Indonesia
-     • Tempo Bisnis
-     • Antara
-     • Kontan
-     • Bloomberg Technoz
+Monitors selected financial sources:
+  - CNBC Indonesia
+  - CNN Indonesia
+  - Tempo Bisnis
+  - Antara
+  - Kontan
+  - Bloomberg Technoz
 
-   Features:
-     • Keyword filtering
-     • Duplicate prevention
-     • Age filtering (max 3 days)
-     • Multi-source aggregation
+Features:
+  - Keyword filtering
+  - Duplicate prevention
+  - Age filtering (max 3 days)
+  - Multi-source aggregation
 
 ### **3. 💬 Discord Integration**
-  • Topic-based routing (send only to channels with marker ***TCHNEWS***)
-  • Multi-server compatible
-  • Dynamic Rich Presence:
-    - IDX Maintenance
-    - IDX Priority Alert
-    - Market Closed
-    - IDX & Market News
-  • Automatic presence switching based on market hours
+- Topic-based routing (send only to channels with marker ***TCHNEWS***)
+- Multi-server compatible
+- Dynamic Rich Presence:
+  - IDX Maintenance
+  - IDX Priority Alert
+  - Market Closed
+  - IDX & Market News
+- Automatic presence switching based on market hours
 
 ### **4. 💬 Telegram Integration**
-  • Broadcast alerts to Telegram channel/group
-  • ***/status*** command via DM only
-  • Real-time system status:
-    - Feeds count
-    - Last RSS check (seconds)
-    - Last news time
-    - IDX status (ACTIVE / MAINTENANCE / OFFLINE)
+- Broadcast alerts to Telegram channel/group
+- ***/status*** command via DM only
+- Real-time system status:
+  - Feeds count
+  - Last RSS check (seconds)
+  - Last news time
+  - IDX status (ACTIVE / MAINTENANCE / OFFLINE)
   
   Example:
     ```
