@@ -9,17 +9,17 @@ It delivers structured, real-time notifications with dynamic Discord Rich Presen
 ### **1. ⚠️ IDX Priority Monitoring (Level 2 Scraping)**
 * Scrapes official IDX announcement page.
 * Detects:
- - Supension (Suspensi)
- - Unusual Market Activity (UMA)
- - Disclosure / Keterbukaan Informasi
- - General issuer announcements
+  - Supension (Suspensi)
+  - Unusual Market Activity (UMA)
+  - Disclosure / Keterbukaan Informasi
+  - General issuer announcements
    
-  • Extracts:
-     - Announcement category
-     - Title
-     - Direct link
-  • Prevents duplicate alerts vie persistent hash tracking
-  • Maintenance detection & auto status switching
+* Extracts:
+  - Announcement category
+  - Title
+  - Direct link
+* Prevents duplicate alerts vie persistent hash tracking
+* Maintenance detection & auto status switching
 
 ### **2. 📰 Financial Media RSS Monitoring**
    Monitors selected financial sources:
